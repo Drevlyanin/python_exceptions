@@ -20,6 +20,6 @@ else:
     (without throwing an exception).
     """
     if (value>0) and (value<=10): # This code should not be executed if the user enters invalid data.
-        print("You entered: ", Value)
+        print("You entered: ", value)
     else:
         print("The entered value is incorrect!") 
